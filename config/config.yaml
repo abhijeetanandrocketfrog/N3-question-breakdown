@@ -1,0 +1,4 @@
+retrieval:
+  api_url: "http://10.0.2.47:8000/api/retrieve"
+  top_k: 3
+  timeout: 10

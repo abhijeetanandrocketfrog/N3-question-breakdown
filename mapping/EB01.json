@@ -1,0 +1,16 @@
+{
+  "Limitations & Out of Pocket Limit/Maximum": [
+    "Limitations",
+    "Out of Pocket (Stop Loss)"
+  ],
+  "Covered": [
+    "Active Coverage",
+    "Active - Full Risk Capitation",
+    "Active - Services Capitated",
+    "Active - Services Capitated to Primary Care Physician",
+    "Active - Pending Investigation",
+    "Inactive",
+    "Inactive - Pending Eligibility Update",
+    "Inactive - Pending Investigation"
+  ]
+}

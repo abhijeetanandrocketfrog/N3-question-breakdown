@@ -1,0 +1,23 @@
+{
+  "1": {
+    "definition": "SUBSCRIBER-BASED COVERAGE",
+    "canonical_terms": [
+      "Individual",
+      "Individual Only",
+      "Individual and Children",
+      "Individual and Spouse"
+    ]
+  },
+  "2": {
+    "definition": "FAMILY/DEPENDENT-BASED COVERAGE",
+    "canonical_terms": [
+      "Family",
+      "Children Only",
+      "Individual and Children",
+      "Individual and Spouse",
+      "Spouse and Children",
+      "Spouse Only",
+      "Dependents Only"
+    ]
+  }
+}

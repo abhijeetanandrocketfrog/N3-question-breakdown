@@ -1,0 +1,49 @@
+{
+  "1": {
+    "definition": "Base Time Units",
+    "canonical_terms": [
+      "Hour",
+      "Day",
+      "24 Hours",
+      "Week",
+      "Month",
+      "Years"
+    ]
+  },
+  "2": {
+    "definition": "Plan / Coverage Time Frames",
+    "canonical_terms": [
+      "Years",
+      "Service Year",
+      "Calendar Year",
+      "Year to Date",
+      "Contract"
+    ]
+  },
+  "3": {
+    "definition": "Service Counting Units",
+    "canonical_terms": [
+      "Visit",
+      "Admission",
+      "Episode"
+    ]
+  },
+  "4": {
+    "definition": "Lifetime Scope",
+    "canonical_terms": [
+      "Lifetime",
+      "Lifetime Remaining"
+    ]
+  },
+  "5": {
+    "definition": "Limit / Threshold Status",
+    "canonical_terms": [
+      "Remaining",
+      "Exceeded",
+      "Not Exceeded",
+      "Outlier",
+      "Lifetime Remaining",
+      "Year to Date"
+    ]
+  }
+}

@@ -1,0 +1,762 @@
+{
+  "1": {
+    "definition": "PHYSICIAN",
+    "subclusters": {
+      "1.1": {
+        "definition": "General Physician Professional",
+        "canonical_terms": [
+          "Professional (Physician)",
+          "Surgical Benefits - Professional (Physician)",
+          "Independent Medical Evaluation"
+        ]
+      },
+      "1.2": {
+        "definition": "Physician Office Visits",
+        "canonical_terms": [
+          "Professional (Physician) Visit - Office",
+          "Physician Visit - Office: Sick",
+          "Physician Visit - Office: Well"
+        ]
+      },
+      "1.3": {
+        "definition": "Physician Facility Visits",
+        "canonical_terms": [
+          "Professional (Physician) Visit - Inpatient",
+          "Professional (Physician) Visit - Outpatient"
+        ]
+      },
+      "1.4": {
+        "definition": "Physician Extended-Care Visits",
+        "canonical_terms": [
+          "Professional (Physician) Visit - Nursing Home",
+          "Professional (Physician) Visit - Skilled Nursing Facility",
+          "Professional (Physician) Visit - Home"
+        ]
+      },
+      "1.5": {
+        "definition": "Surgical Physician Roles",
+        "canonical_terms": [
+          "Anesthesiologist",
+          "Surgical Assistance"
+        ]
+      }
+    }
+  },
+
+  "2": {
+    "definition": "HOSPITAL & FACILITY",
+    "subclusters": {
+      "2.1": {
+        "definition": "Generic Hospital Facility",
+        "canonical_terms": ["Hospital"]
+      },
+      "2.2": {
+        "definition": "Inpatient Hospital Services",
+        "canonical_terms": [
+          "Hospital - Inpatient",
+          "Hospital - Room and Board"
+        ]
+      },
+      "2.3": {
+        "definition": "Outpatient & Same-Day Surgical Facilities",
+        "canonical_terms": [
+          "Hospital - Outpatient",
+          "Hospital - Ambulatory Surgical",
+          "Ambulatory Service Center Facility"
+        ]
+      },
+      "2.4": {
+        "definition": "Emergency Hospital Facilities",
+        "canonical_terms": [
+          "Hospital - Emergency Medical",
+          "Hospital - Emergency Accident"
+        ]
+      },
+      "2.5": {
+        "definition": "Intensive & Critical Care Units",
+        "canonical_terms": [
+          "Intensive Care",
+          "Coronary Care",
+          "Neonatal Intensive Care"
+        ]
+      }
+    }
+  },
+
+  "3": {
+    "definition": "EMERGENCY / IMMEDIATE & TIME-SENSITIVE CARE",
+    "subclusters": {
+      "3.1": {
+        "definition": "Emergency Services",
+        "canonical_terms": ["Emergency Services"]
+      },
+      "3.2": {
+        "definition": "Urgent Care",
+        "canonical_terms": ["Urgent Care"]
+      }
+    }
+  },
+
+  "4": {
+    "definition": "DIAGNOSTIC & TESTING",
+    "subclusters": {
+      "4.1": {
+        "definition": "Radiology & Imaging",
+        "canonical_terms": [
+          "Diagnostic X-Ray",
+          "Screening X-ray",
+          "MRI/CAT Scan"
+        ]
+      },
+      "4.2": {
+        "definition": "Laboratory & Pathology",
+        "canonical_terms": [
+          "Diagnostic Lab",
+          "Screening laboratory",
+          "Pathology"
+        ]
+      },
+      "4.3": {
+        "definition": "Preventive / Risk-Based Imaging",
+        "canonical_terms": [
+          "Mammogram - High Risk",
+          "Mammogram - Low Risk",
+          "Mammogram, High Risk Patient",
+          "Mammogram, Low Risk Patient"
+        ]
+      },
+      "4.4": {
+        "definition": "Sensory Diagnostics",
+        "canonical_terms": [
+          "Audiology Exam",
+          "Otological Exam"
+        ]
+      },
+      "4.5": {
+        "definition": "Allergy Testing",
+        "canonical_terms": ["Allergy Testing"]
+      }
+    }
+  },
+
+  "5": {
+    "definition": "SURGICAL & PROCEDURAL CARE",
+    "subclusters": {
+      "5.1": {
+        "definition": "General Surgical Procedures",
+        "canonical_terms": [
+          "Surgical",
+          "Second Surgical Opinion",
+          "Third Surgical Opinion"
+        ]
+      },
+      "5.2": {
+        "definition": "Facility-Side Surgical Charges",
+        "canonical_terms": ["Surgical Benefits - Facility"]
+      },
+      "5.3": {
+        "definition": "Invasive / Special Procedures",
+        "canonical_terms": [
+          "Invasive Procedures",
+          "Burn Care",
+          "Donor Procedures"
+        ]
+      },
+      "5.4": {
+        "definition": "Anesthesia Services",
+        "canonical_terms": [
+          "Anesthesia",
+          "Anesthesiologist"
+        ]
+      }
+    }
+  },
+
+  "6": {
+    "definition": "THERAPY & REHABILITATION",
+    "subclusters": {
+      "6.1": {
+        "definition": "Physical & Functional Therapy",
+        "canonical_terms": [
+          "Physical Therapy",
+          "Occupational Therapy",
+          "Speech Therapy"
+        ]
+      },
+      "6.2": {
+        "definition": "Rehabilitation - Facility Based",
+        "canonical_terms": [
+          "Rehabilitation",
+          "Rehabilitation - Inpatient",
+          "Rehabilitation - Outpatient",
+          "Rehabilitation - Room and Board"
+        ]
+      },
+      "6.3": {
+        "definition": "Cardio-Pulmonary Rehabilitation",
+        "canonical_terms": [
+          "Cardiac Rehabilitation",
+          "Pulmonary Rehabilitation"
+        ]
+      },
+      "6.4": {
+        "definition": "Other Therapeutic Services",
+        "canonical_terms": [
+          "Physical Medicine",
+          "Massage Therapy",
+          "Cognitive Therapy"
+        ]
+      }
+    }
+  },
+
+  "7": {
+    "definition": "MENTAL HEALTH & SUBSTANCE USE",
+    "subclusters": {
+      "7.1": {
+        "definition": "Mental Health Services",
+        "canonical_terms": [
+          "Mental Health",
+          "Mental Health Provider - Inpatient",
+          "Mental Health Provider - Outpatient",
+          "Mental Health Facility - Inpatient",
+          "Mental Health Facility - Outpatient",
+          "Psychiatric",
+          "Psychotherapy"
+        ]
+      },
+      "7.2": {
+        "definition": "Psychiatric Facility Levels",
+        "canonical_terms": [
+          "Psychiatric - Inpatient",
+          "Psychiatric - Outpatient",
+          "Psychiatric - Room and Board"
+        ]
+      },
+      "7.3": {
+        "definition": "Structured Psychiatric Programs",
+        "canonical_terms": [
+          "Partial Hospitalization (Psychiatric)",
+          "Day Care (Psychiatric)",
+          "Residential Psychiatric Treatment"
+        ]
+      },
+      "7.4": {
+        "definition": "Substance Use Disorders",
+        "canonical_terms": [
+          "Substance Abuse",
+          "Alcoholism",
+          "Drug Addiction"
+        ]
+      },
+      "7.5": {
+        "definition": "Substance Abuse Facilities",
+        "canonical_terms": [
+          "Substance Abuse Facility - Inpatient",
+          "Substance Abuse Facility - Outpatient"
+        ]
+      }
+    }
+  },
+
+  "8": {
+    "definition": "PHARMACY & DRUG DELIVERY",
+    "subclusters": {
+      "8.1": {
+        "definition": "Pharmacy",
+        "canonical_terms": ["Pharmacy"]
+      },
+      "8.2": {
+        "definition": "Retail Prescription Drugs",
+        "canonical_terms": [
+          "Free Standing Prescription Drug",
+          "Brand Name Prescription Drug",
+          "Generic Prescription Drug"
+        ]
+      },
+      "8.3": {
+        "definition": "Mail Order Prescription Drugs",
+        "canonical_terms": [
+          "Mail Order Prescription Drug",
+          "Mail Order Prescription Drug: Brand Name",
+          "Mail Order Prescription Drug: Generic"
+        ]
+      },
+      "8.4": {
+        "definition": "Formulary Status",
+        "canonical_terms": [
+          "Brand Name Prescription Drug - Formulary",
+          "Brand Name Prescription Drug - Non-Formulary",
+          "Generic Prescription Drug - Formulary",
+          "Generic Prescription Drug - Non-Formulary"
+        ]
+      },
+      "8.5": {
+        "definition": "Specialty Drug Therapy",
+        "canonical_terms": [
+          "Chemotherapy",
+          "Experimental Drug Therapy"
+        ]
+      }
+    }
+  },
+
+  "9": {
+    "definition": "DEVICES, EQUIPMENT & SUPPLIES",
+    "subclusters": {
+      "9.1": {
+        "definition": "Durable Medical Equipment (Reusable / Facility or Home Equipment)",
+        "canonical_terms": [
+          "Durable Medical Equipment",
+          "Durable Medical Equipment Purchase",
+          "Durable Medical Equipment Rental",
+          "Used Durable Medical Equipment",
+          "Prosthetic Device"
+        ]
+      },
+      "9.2": {
+        "definition": "Medical Supplies (Consumable / Disposable)",
+        "canonical_terms": [
+          "Diabetic Supplies",
+          "Renal Supplies in the Home"
+        ]
+      }
+    }
+  },
+
+  "10": {
+    "definition": "RENAL & DIALYSIS",
+    "subclusters": {
+      "10.1": {
+        "definition": "Dialysis Services",
+        "canonical_terms": [
+          "Dialysis",
+          "Alternate Method Dialysis"
+        ]
+      },
+      "10.2": {
+        "definition": "Chronic Renal Disease (CRD) Equipment",
+        "canonical_terms": [
+          "Chronic Renal Disease (CRD) Equipment"
+        ]
+      },
+      "10.3": {
+        "definition": "Renal",
+        "canonical_terms": ["Renal"]
+      }
+    }
+  },
+
+  "11": {
+    "definition": "HOME, NURSING & LONG-TERM CARE",
+    "subclusters": {
+      "11.1": {
+        "definition": "Home Health Services",
+        "canonical_terms": [
+          "Home Health Care",
+          "Home Health Visits",
+          "Home Health Prescriptions"
+        ]
+      },
+      "11.2": {
+        "definition": "Skilled & Private Nursing",
+        "canonical_terms": [
+          "Skilled Nursing Care",
+          "Skilled Nursing Care - Room and Board",
+          "Private Duty Nursing",
+          "Private Duty Nursing - Inpatient",
+          "Private Duty Nursing - Home"
+        ]
+      },
+      "11.3": {
+        "definition": "Hospice & Respite",
+        "canonical_terms": [
+          "Hospice",
+          "Respite Care"
+        ]
+      },
+      "11.4": {
+        "definition": "Long Term Care",
+        "canonical_terms": ["Long Term Care"]
+      }
+    }
+  },
+
+  "12": {
+    "definition": "PREVENTIVE & IMMUNIZATION",
+    "subclusters": {
+      "12.1": {
+        "definition": "Routine Preventive Care",
+        "canonical_terms": [
+          "Routine Physical",
+          "Well Baby Care"
+        ]
+      },
+      "12.2": {
+        "definition": "Vaccinations",
+        "canonical_terms": [
+          "Immunizations",
+          "Flu Vaccination",
+          "Pneumonia Vaccine"
+        ]
+      },
+      "12.3": {
+        "definition": "Smoking Cessation",
+        "canonical_terms": ["Smoking Cessation"]
+      }
+    }
+  },
+
+  "13": {
+    "definition": "DENTAL",
+    "subclusters": {
+      "13.1": {
+        "definition": "General Dental",
+        "canonical_terms": [
+          "Dental Care",
+          "Diagnostic Dental"
+        ]
+      },
+      "13.2": {
+        "definition": "Dental Procedures",
+        "canonical_terms": [
+          "Periodontics",
+          "Restorative",
+          "Endodontics",
+          "Prosthodontics",
+          "Oral Surgery"
+        ]
+      },
+      "13.3": {
+        "definition": "Dental Special Coverage",
+        "canonical_terms": [
+          "Dental Crowns",
+          "Orthodontics",
+          "Dental Accident",
+          "Maxillofacial Prosthetics",
+          "Adjunctive Dental Services"
+        ]
+      },
+      "13.4": {
+        "definition": "Routine (Preventive) Dental",
+        "canonical_terms": [
+          "Routine (Preventive) Dental"
+        ]
+      }
+    }
+  },
+
+  "14": {
+    "definition": "VISION & EYE CARE",
+    "subclusters": {
+      "14.1": {
+        "definition": "Vision Exams",
+        "canonical_terms": [
+          "Vision (Optometry)",
+          "Routine Exam (Use for Routine Vision Exam only)"
+        ]
+      },
+      "14.2": {
+        "definition": "Eyewear",
+        "canonical_terms": [
+          "Frames",
+          "Lenses",
+          "Eyewear and Eyewear Accessories"
+        ]
+      },
+      "14.3": {
+        "definition": "Eye Care",
+        "canonical_terms": ["Eye"]
+      }
+    }
+  },
+
+  "15": {
+    "definition": "WOMEN’S, MATERNITY & PEDIATRIC CARE",
+    "subclusters": {
+      "15.1": {
+        "definition": "Obstetric & Gynecologic Care",
+        "canonical_terms": [
+          "Obstetrical",
+          "Gynecological",
+          "Obstetrical/Gynecological"
+        ]
+      },
+      "15.2": {
+        "definition": "Maternity & Newborn",
+        "canonical_terms": [
+          "Maternity",
+          "Newborn Care",
+          "Nursery",
+          "Transitional Nursery Care"
+        ]
+      },
+      "15.3": {
+        "definition": "Reproductive Health",
+        "canonical_terms": [
+          "Family Planning",
+          "Infertility",
+          "In-vitro Fertilization",
+          "Abortion"
+        ]
+      },
+      "15.4": {
+        "definition": "Pediatric Care",
+        "canonical_terms": ["Pediatric"]
+      }
+    }
+  },
+
+  "16": {
+    "definition": "ONCOLOGY & SERIOUS DISEASE",
+    "subclusters": {
+      "16.1": {
+        "definition": "Cancer Care",
+        "canonical_terms": [
+          "Cancer",
+          "Oncology"
+        ]
+      },
+      "16.2": {
+        "definition": "Radiation & Transplant",
+        "canonical_terms": [
+          "Radiation Therapy",
+          "Transplants"
+        ]
+      }
+    }
+  },
+
+  "17": {
+    "definition": "ORGAN / SYSTEM-BASED TAGS",
+    "subclusters": {
+      "17.1": {
+        "definition": "Cardiopulmonary Systems",
+        "canonical_terms": [
+          "Cardiac",
+          "Pulmonary"
+        ]
+      },
+      "17.2": {
+        "definition": "Neuromusculoskeletal Systems",
+        "canonical_terms": [
+          "Neurology",
+          "Orthopedic"
+        ]
+      },
+      "17.3": {
+        "definition": "Metabolic & Endocrine Systems",
+        "canonical_terms": [
+          "Endocrine"
+        ]
+      },
+      "17.4": {
+        "definition": "Digestive System",
+        "canonical_terms": [
+          "Gastrointestinal"
+        ]
+      },
+      "17.5": {
+        "definition": "Integumentary System",
+        "canonical_terms": [
+          "Dermatology",
+          "Skin"
+        ]
+      },
+      "17.6": {
+        "definition": "Lymphatic & Immune System",
+        "canonical_terms": [
+          "Lymphatic",
+          "Allergy"
+        ]
+      }
+    }
+  },
+
+  "18": {
+    "definition": "GENERAL MEDICAL CARE",
+    "subclusters": {
+      "18.1": {
+        "definition": "General Medical Care",
+        "canonical_terms": [
+          "Medical Care",
+          "Other Medical",
+          "Major Medical",
+          "Diagnostic Medical"
+        ]
+      }
+    }
+  },
+
+  "19": {
+    "definition": "CONSULTATION SERVICES",
+    "subclusters": {
+      "19.1": {
+        "definition": "Consultation",
+        "canonical_terms": ["Consultation"]
+      }
+    }
+  },
+
+  "20": {
+    "definition": "PRE-ADMISSION SERVICES",
+    "subclusters": {
+      "20.1": {
+        "definition": "Pre-Admission Testing",
+        "canonical_terms": ["Pre-Admission Testing"]
+      }
+    }
+  },
+
+  "21": {
+    "definition": "SOCIAL & SUPPORT SERVICES",
+    "subclusters": {
+      "21.1": {
+        "definition": "Social Work",
+        "canonical_terms": ["Social Work"]
+      }
+    }
+  },
+
+  "22": {
+    "definition": "CHIROPRACTIC SERVICES",
+    "subclusters": {
+      "22.1": {
+        "definition": "Chiropractic",
+        "canonical_terms": [
+          "Chiropractic",
+          "Chiropractic Office Visits"
+        ]
+      }
+    }
+  },
+
+  "23": {
+    "definition": "RESPIRATORY THERAPIES",
+    "subclusters": {
+      "23.1": {
+        "definition": "Inhalation Therapy",
+        "canonical_terms": ["Inhalation Therapy"]
+      }
+    }
+  },
+
+  "24": {
+    "definition": "PODIATRY SERVICES",
+    "subclusters": {
+      "24.1": {
+        "definition": "Podiatry",
+        "canonical_terms": [
+          "Podiatry",
+          "Podiatry - Office Visits",
+          "Podiatry - Nursing Home Visits"
+        ]
+      }
+    }
+  },
+
+  "25": {
+    "definition": "TRANSITIONAL & POST-ACUTE CARE",
+    "subclusters": {
+      "25.1": {
+        "definition": "Transitional Care",
+        "canonical_terms": ["Transitional Care"]
+      }
+    }
+  },
+
+  "26": {
+    "definition": "Health Plan Coverage & Eligibility Concepts",
+    "subclusters": {
+      "26.1": {
+        "definition": "Health Benefit Plan Coverage",
+        "canonical_terms": ["Health Benefit Plan Coverage"]
+      }
+    }
+  },
+
+  "27": {
+    "definition": "Plan Waiting & Effective Periods",
+    "subclusters": {
+      "27.1": {
+        "definition": "Plan Waiting Period",
+        "canonical_terms": ["Plan Waiting Period"]
+      }
+    }
+  },
+
+  "28": {
+    "definition": "General Benefit Classifications",
+    "subclusters": {
+      "28.1": {
+        "definition": "General Benefits",
+        "canonical_terms": ["General Benefits"]
+      }
+    }
+  },
+
+  "29": {
+    "definition": "Care Coordination & Management",
+    "subclusters": {
+      "29.1": {
+        "definition": "Case Management",
+        "canonical_terms": ["Case Management"]
+      }
+    }
+  },
+
+  "30": {
+    "definition": "Blood & Biological Charges",
+    "subclusters": {
+      "30.1": {
+        "definition": "Blood Charges",
+        "canonical_terms": ["Blood Charges"]
+      }
+    }
+  },
+
+  "31": {
+    "definition": "Medical Transportation Services",
+    "subclusters": {
+      "31.1": {
+        "definition": "Medical Transportation",
+        "canonical_terms": [
+          "Medically Related Transportation",
+          "Air Transportation",
+          "Cabulance",
+          "Licensed Ambulance"
+        ]
+      }
+    }
+  },
+
+  "32": {
+    "definition": "Non-Covered / Excluded Services",
+    "subclusters": {
+      "32.1": {
+        "definition": "Nonmedically Necessary Physical",
+        "canonical_terms": ["Nonmedically Necessary Physical"]
+      }
+    }
+  },
+
+  "33": {
+    "definition": "Complementary & Alternative Medicine",
+    "subclusters": {
+      "33.1": {
+        "definition": "Acupuncture",
+        "canonical_terms": ["Acupuncture"]
+      }
+    }
+  },
+
+  "34": {
+    "definition": "Specific Disease-State Services",
+    "subclusters": {
+      "34.1": {
+        "definition": "AIDS",
+        "canonical_terms": ["AIDS"]
+      }
+    }
+  }
+}
