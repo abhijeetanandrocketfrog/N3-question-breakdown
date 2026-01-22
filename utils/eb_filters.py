@@ -78,3 +78,18 @@ def extract_eb_filters(response: dict) -> List[str]:
                         eb_filters.append(f"{eb_code}: {term}")
 
     return list(dict.fromkeys(eb_filters))
+
+def ensure_default_eb03(eb_filters):
+    """
+    Ensure EB03 exists in eb_filters.
+    If missing, add default EB03: Health Benefit Plan Coverage
+    """
+    has_eb03 = any(
+        isinstance(f, str) and f.startswith("EB03:")
+        for f in eb_filters
+    )
+
+    if not has_eb03:
+        eb_filters.append("EB03: Health Benefit Plan Coverage")
+
+    return eb_filters
