@@ -6,7 +6,6 @@
         "definition": "General Physician Professional",
         "canonical_terms": [
           "Professional (Physician)",
-          "Surgical Benefits - Professional (Physician)",
           "Independent Medical Evaluation"
         ]
       },
@@ -47,7 +46,7 @@
     "definition": "HOSPITAL & FACILITY",
     "subclusters": {
       "2.1": {
-        "definition": "Generic Hospital Facility",
+        "definition": "Hospital",
         "canonical_terms": ["Hospital"]
       },
       "2.2": {
@@ -88,7 +87,11 @@
     "subclusters": {
       "3.1": {
         "definition": "Emergency Services",
-        "canonical_terms": ["Emergency Services"]
+        "canonical_terms": [
+          "Emergency Services",
+          "Hospital - Emergency Medical",
+          "Hospital - Emergency Accident"
+        ]
       },
       "3.2": {
         "definition": "Urgent Care",
@@ -143,18 +146,16 @@
     "definition": "SURGICAL & PROCEDURAL CARE",
     "subclusters": {
       "5.1": {
-        "definition": "General Surgical Procedures",
+        "definition": "Surgical Procedures",
         "canonical_terms": [
           "Surgical",
           "Second Surgical Opinion",
-          "Third Surgical Opinion"
+          "Third Surgical Opinion",
+          "Surgical Benefits - Facility",
+          "Surgical Benefits - Professional (Physician)"
         ]
       },
       "5.2": {
-        "definition": "Facility-Side Surgical Charges",
-        "canonical_terms": ["Surgical Benefits - Facility"]
-      },
-      "5.3": {
         "definition": "Invasive / Special Procedures",
         "canonical_terms": [
           "Invasive Procedures",
@@ -162,7 +163,7 @@
           "Donor Procedures"
         ]
       },
-      "5.4": {
+      "5.3": {
         "definition": "Anesthesia Services",
         "canonical_terms": [
           "Anesthesia",
@@ -176,7 +177,7 @@
     "definition": "THERAPY & REHABILITATION",
     "subclusters": {
       "6.1": {
-        "definition": "Physical & Functional Therapy",
+        "definition": "Physical, Occupational & Speech Therapies",
         "canonical_terms": [
           "Physical Therapy",
           "Occupational Therapy",
@@ -242,18 +243,18 @@
         ]
       },
       "7.4": {
-        "definition": "Substance Use Disorders",
+        "definition": "Substance Use",
         "canonical_terms": [
           "Substance Abuse",
-          "Alcoholism",
-          "Drug Addiction"
+          "Drug Addiction",
+          "Substance Abuse Facility - Inpatient",
+          "Substance Abuse Facility - Outpatient"
         ]
       },
       "7.5": {
-        "definition": "Substance Abuse Facilities",
+        "definition": "Alcoholism",
         "canonical_terms": [
-          "Substance Abuse Facility - Inpatient",
-          "Substance Abuse Facility - Outpatient"
+          "Alcoholism"
         ]
       }
     }
@@ -267,6 +268,24 @@
         "canonical_terms": ["Pharmacy"]
       },
       "8.2": {
+        "definition": "Brand Name Prescription Drug",
+        "canonical_terms": [
+          "Brand Name Prescription Drug",
+          "Mail Order Prescription Drug: Brand Name",
+          "Brand Name Prescription Drug - Formulary",
+          "Brand Name Prescription Drug - Non-Formulary"
+        ]
+      },
+      "8.3": {
+        "definition": "Generic Prescription Drug",
+        "canonical_terms": [
+          "Generic Prescription Drug",
+          "Mail Order Prescription Drug: Generic",
+          "Generic Prescription Drug - Formulary",
+          "Generic Prescription Drug - Non-Formulary"
+        ]
+      },
+      "8.4": {
         "definition": "Retail Prescription Drugs",
         "canonical_terms": [
           "Free Standing Prescription Drug",
@@ -274,7 +293,7 @@
           "Generic Prescription Drug"
         ]
       },
-      "8.3": {
+      "8.5": {
         "definition": "Mail Order Prescription Drugs",
         "canonical_terms": [
           "Mail Order Prescription Drug",
@@ -282,7 +301,7 @@
           "Mail Order Prescription Drug: Generic"
         ]
       },
-      "8.4": {
+      "8.6": {
         "definition": "Formulary Status",
         "canonical_terms": [
           "Brand Name Prescription Drug - Formulary",
@@ -291,7 +310,7 @@
           "Generic Prescription Drug - Non-Formulary"
         ]
       },
-      "8.5": {
+      "8.7": {
         "definition": "Specialty Drug Therapy",
         "canonical_terms": [
           "Chemotherapy",
@@ -389,7 +408,8 @@
         "definition": "Routine Preventive Care",
         "canonical_terms": [
           "Routine Physical",
-          "Well Baby Care"
+          "Well Baby Care",
+          "Physician Visit - Office: Well"
         ]
       },
       "12.2": {
@@ -589,7 +609,7 @@
   },
 
   "19": {
-    "definition": "CONSULTATION SERVICES",
+    "definition": "CONSULTATION",
     "subclusters": {
       "19.1": {
         "definition": "Consultation",
@@ -599,7 +619,7 @@
   },
 
   "20": {
-    "definition": "PRE-ADMISSION SERVICES",
+    "definition": "PRE-ADMISSION TESTING",
     "subclusters": {
       "20.1": {
         "definition": "Pre-Admission Testing",
@@ -609,7 +629,7 @@
   },
 
   "21": {
-    "definition": "SOCIAL & SUPPORT SERVICES",
+    "definition": "SOCIAL WORK",
     "subclusters": {
       "21.1": {
         "definition": "Social Work",
@@ -632,7 +652,7 @@
   },
 
   "23": {
-    "definition": "RESPIRATORY THERAPIES",
+    "definition": "INHALATION THERAPY",
     "subclusters": {
       "23.1": {
         "definition": "Inhalation Therapy",
@@ -656,7 +676,7 @@
   },
 
   "25": {
-    "definition": "TRANSITIONAL & POST-ACUTE CARE",
+    "definition": "TRANSITIONAL CARE",
     "subclusters": {
       "25.1": {
         "definition": "Transitional Care",
@@ -666,7 +686,7 @@
   },
 
   "26": {
-    "definition": "Health Plan Coverage & Eligibility Concepts",
+    "definition": "HEALTH BENEFIT PLAN COVERAGE",
     "subclusters": {
       "26.1": {
         "definition": "Health Benefit Plan Coverage",
@@ -676,7 +696,7 @@
   },
 
   "27": {
-    "definition": "Plan Waiting & Effective Periods",
+    "definition": "PLAN WAITING PERIOD",
     "subclusters": {
       "27.1": {
         "definition": "Plan Waiting Period",
@@ -686,7 +706,7 @@
   },
 
   "28": {
-    "definition": "General Benefit Classifications",
+    "definition": "GENERAL BENEFITS",
     "subclusters": {
       "28.1": {
         "definition": "General Benefits",
@@ -696,7 +716,7 @@
   },
 
   "29": {
-    "definition": "Care Coordination & Management",
+    "definition": "CASE MANAGEMENT",
     "subclusters": {
       "29.1": {
         "definition": "Case Management",
@@ -706,7 +726,7 @@
   },
 
   "30": {
-    "definition": "Blood & Biological Charges",
+    "definition": "BLOOD CHARGES",
     "subclusters": {
       "30.1": {
         "definition": "Blood Charges",
@@ -716,7 +736,7 @@
   },
 
   "31": {
-    "definition": "Medical Transportation Services",
+    "definition": "MEDICAL TRANSPORTATION SERVICES",
     "subclusters": {
       "31.1": {
         "definition": "Medical Transportation",
@@ -731,7 +751,7 @@
   },
 
   "32": {
-    "definition": "Non-Covered / Excluded Services",
+    "definition": "NONMEDICALLY NECESSARY PHYSICAL",
     "subclusters": {
       "32.1": {
         "definition": "Nonmedically Necessary Physical",
@@ -741,7 +761,7 @@
   },
 
   "33": {
-    "definition": "Complementary & Alternative Medicine",
+    "definition": "ACUPUNCTURE",
     "subclusters": {
       "33.1": {
         "definition": "Acupuncture",
@@ -751,7 +771,7 @@
   },
 
   "34": {
-    "definition": "Specific Disease-State Services",
+    "definition": "AIDS",
     "subclusters": {
       "34.1": {
         "definition": "AIDS",
