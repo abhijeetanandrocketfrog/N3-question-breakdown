@@ -29,6 +29,12 @@ if __name__ == "__main__":
                 "cluster": "2"
                 }
             ],
+            "EB03": [
+                {
+                "text": "Chiropractic",
+                "cluster": "22"
+                }
+            ],
             "EB06": [
                 {
                 "text": "this year",
